@@ -39,7 +39,7 @@ class _LoginPageState extends State<LoginPage> {
               ),
             ),
             Padding(
-              padding: EdgeInsets.only(top: 10, left: 30.0, right: 120),
+              padding: EdgeInsets.only(top: 10, left: 50.0, right: 120),
               child: Text("LIVE AUTHENTIC",
                   style: TextStyle(
                       color: Color(0xffea4c89), fontWeight: FontWeight.bold)),
@@ -48,7 +48,7 @@ class _LoginPageState extends State<LoginPage> {
               height: 25,
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 10.0, right: 150),
+              padding: const EdgeInsets.only(left: 28.0, right: 150),
               child: RichText(
                 text: TextSpan(
                   text: 'Win the most\n ',
